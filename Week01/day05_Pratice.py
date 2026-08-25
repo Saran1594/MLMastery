@@ -1,4 +1,4 @@
-# Online Calculator
+# Online Calculator using lists 
 session = True
 operations = ["+","-","/","%","*"]
 while session == True:
