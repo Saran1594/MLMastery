@@ -9,8 +9,8 @@ def add_zone(zone_id,shift,pph,target_pph):
     print(pph_tracker)
 def query_zone(zone_id):
     print(pph_tracker[zone_id])
-def update_zone(zone_id,key,value):
-    pph_tracker[zone_id][key] = value
+def update_zone(zone_id, field, new_value):
+    pph_tracker[zone_id][field] = new_value
     print(pph_tracker)
 add_zone("A3","1st",220,120)
 query_zone("A3")
