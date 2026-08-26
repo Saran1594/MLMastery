@@ -1,7 +1,7 @@
 # Prettfying strings
 messy_names = ["  zone a1", "ZONE_A2  ", "Zone-a3", "zone   a4"]
-messy_names_fixed = []
 def cleaning(messy_names):
+    messy_names_fixed = []
     for item in messy_names:
         step1 = item.upper()
         step2 = step1.strip()
@@ -13,5 +13,7 @@ def cleaning(messy_names):
     result = messy_names_fixed
     return result
 output = cleaning(messy_names)
+output2 = cleaning(messy_names)
 print(output)
+print(output2)
 
